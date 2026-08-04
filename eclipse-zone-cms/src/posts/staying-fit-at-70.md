@@ -1,21 +1,48 @@
 ---
-layout: layouts/post.njk
 title: "Staying Fit at 70: The Practical Steps That Actually Matter"
 category: Wellness & Aging
-excerpt: Fitness in your seventies isn't about pushing harder — it's about protecting the specific things that quietly determine independence — muscle, balance, and bone.
+excerpt: Fitness in your seventies isn't about pushing harder — it's about
+  protecting the specific things that quietly determine independence — muscle,
+  balance, and bone.
 readTime: 8 min read
 date: 2026-08-04
 icon: 🏋️
+coverImage: /images/two-senior-ladies-at-a-pilates-class-1.jpg
 caption: "Photo: an older adult doing a simple strength exercise at home"
-permalink: "/{{ page.fileSlug }}/index.html"
+layout: layouts/post.njk
+permalink: /{{ page.fileSlug }}/index.html
 sources:
-  - 'Cruz-Jentoft AJ, et al. "Sarcopenia: revised European consensus on definition and diagnosis." <em>Age Ageing.</em> 2019;48(1):16&ndash;31. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30312372/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/30312372</a>'
-  - 'World Health Organization. "WHO guidelines on physical activity and sedentary behaviour." 2020. &middot; <a href="https://www.who.int/publications/i/item/9789240015128" target="_blank" rel="noopener">who.int/publications</a>'
-  - 'Wall BT, et al. "Aging is accompanied by a blunted muscle protein synthetic response to protein ingestion." <em>PLoS One.</em> 2015;10(11):e0140903. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26528551/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/26528551</a>'
-  - 'Moreland JD, et al. "Muscle weakness and falls in older adults: a systematic review and meta-analysis." <em>J Am Geriatr Soc.</em> 2004;52(7):1121&ndash;9. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15209650/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/15209650</a>'
-  - 'Haentjens P, et al. "Meta-analysis: excess mortality after hip fracture among older women and men." <em>Ann Intern Med.</em> 2010;152(6):380&ndash;90. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20231569/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/20231569</a>'
-  - 'Beaudart C, et al. "The effects of vitamin D on skeletal muscle strength, muscle mass, and muscle power: a systematic review and meta-analysis." <em>J Clin Endocrinol Metab.</em> 2014;99(11):4336&ndash;45. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25033068/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/25033068</a>'
-note: This article is for general informational purposes and reflects publicly available research; it isn't personal medical advice. Anyone starting a new exercise routine, especially after a long period of inactivity or with an existing health condition, should check with a doctor first.
+  - 'Cruz-Jentoft AJ, et al. "Sarcopenia: revised European consensus on
+    definition and diagnosis." <em>Age Ageing.</em> 2019;48(1):16&ndash;31.
+    &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30312372/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/30312372</a>'
+  - World Health Organization. "WHO guidelines on physical activity and
+    sedentary behaviour." 2020. &middot; <a
+    href="https://www.who.int/publications/i/item/9789240015128" target="_blank"
+    rel="noopener">who.int/publications</a>
+  - Wall BT, et al. "Aging is accompanied by a blunted muscle protein synthetic
+    response to protein ingestion." <em>PLoS One.</em> 2015;10(11):e0140903.
+    &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26528551/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/26528551</a>
+  - 'Moreland JD, et al. "Muscle weakness and falls in older adults: a
+    systematic review and meta-analysis." <em>J Am Geriatr Soc.</em>
+    2004;52(7):1121&ndash;9. &middot; <a
+    href="https://pubmed.ncbi.nlm.nih.gov/15209650/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/15209650</a>'
+  - 'Haentjens P, et al. "Meta-analysis: excess mortality after hip fracture
+    among older women and men." <em>Ann Intern Med.</em>
+    2010;152(6):380&ndash;90. &middot; <a
+    href="https://pubmed.ncbi.nlm.nih.gov/20231569/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/20231569</a>'
+  - 'Beaudart C, et al. "The effects of vitamin D on skeletal muscle strength,
+    muscle mass, and muscle power: a systematic review and meta-analysis." <em>J
+    Clin Endocrinol Metab.</em> 2014;99(11):4336&ndash;45. &middot; <a
+    href="https://pubmed.ncbi.nlm.nih.gov/25033068/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/25033068</a>'
+note: This article is for general informational purposes and reflects publicly
+  available research; it isn't personal medical advice. Anyone starting a new
+  exercise routine, especially after a long period of inactivity or with an
+  existing health condition, should check with a doctor first.
 ---
 
 A lot of fitness advice is written for people trying to look a certain way. Fitness at 70 is a different project entirely — the goal isn't aesthetic, it's functional: being able to get up off the floor, carry groceries, catch yourself if you trip, and keep doing the things you actually want to do. The encouraging part is that the research on healthy aging is fairly consistent about which habits move the needle most.
