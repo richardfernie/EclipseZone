@@ -6,14 +6,14 @@ backend:
 # handle authentication, so you log in with your own account —
 # no separate password to manage.
 
-media_folder: "src/images"
+media_folder: "eclipse-zone-cms/src/images"
 public_folder: "/images"
 
 collections:
   - name: "posts"
     label: "Posts"
     label_singular: "Post"
-    folder: "src/posts"
+    folder: "eclipse-zone-cms/src/posts"
     create: true      # adds the "New Post" button
     delete: true       # adds the "Delete entry" option per post
     slug: "{{slug}}"
