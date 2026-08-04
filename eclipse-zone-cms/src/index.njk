@@ -1,0 +1,66 @@
+---
+layout: layouts/base.njk
+title: Eclipse Zone — A Personal Journal on Living Well
+permalink: /index.html
+---
+<div class="page">
+
+  {% set posts = collections.posts %}
+  {% if posts.length %}
+    {% set featured = posts[0] %}
+    <div class="section-label">Latest Post</div>
+    <a class="featured" href="{{ featured.url }}">
+      <div class="featured-img">
+        {% if featured.data.coverImage %}
+        <img src="{{ featured.data.coverImage }}" alt="{{ featured.data.caption }}">
+        {% else %}
+        <span class="ph-icon">{{ featured.data.icon }}</span>
+        {{ featured.data.caption }}
+        {% endif %}
+      </div>
+      <div class="featured-body">
+        <p class="kicker">{{ featured.data.category }}</p>
+        <h2>{{ featured.data.title }}</h2>
+        <p class="excerpt">{{ featured.data.excerpt }}</p>
+        <div class="meta">{{ featured.data.readTime }} &middot; {{ featured.data.date | readableDate }}</div>
+      </div>
+    </a>
+
+    {% if posts.length > 1 %}
+    <div class="section-label">More Posts</div>
+    <div class="post-grid">
+      {% for post in posts %}
+        {% if loop.index0 > 0 %}
+        <a class="post-card" href="{{ post.url }}">
+          <div class="post-card-img">
+            {% if post.data.coverImage %}
+            <img src="{{ post.data.coverImage }}" alt="{{ post.data.caption }}">
+            {% else %}
+            <span class="ph-icon">{{ post.data.icon }}</span>
+            {{ post.data.caption }}
+            {% endif %}
+          </div>
+          <div class="post-card-body">
+            <p class="kicker">{{ post.data.category }}</p>
+            <h3>{{ post.data.title }}</h3>
+            <div class="meta">{{ post.data.readTime }} &middot; {{ post.data.date | readableDate }}</div>
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% else %}
+    <div class="section-label">Latest Post</div>
+    <div class="coming-soon">
+      <strong>No posts yet</strong>
+      Add your first post from the /admin panel.
+    </div>
+  {% endif %}
+
+  <div class="about-block" id="about">
+    <h3>About Eclipse Zone</h3>
+    <p>Eclipse Zone is a personal journal about the small, unglamorous habits that tend to matter more than the trends they compete with. No sponsored posts, no products to sell &mdash; just things worth trying and the reasoning behind them.</p>
+  </div>
+
+</div>

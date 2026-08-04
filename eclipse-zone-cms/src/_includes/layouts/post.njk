@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+---
+<div class="article">
+
+  <div class="kicker">{{ category }}</div>
+  <div class="headline">
+    <h1>{{ title }}</h1>
+    <p class="deck">{{ excerpt }}</p>
+  </div>
+
+  <div class="byline">
+    <div class="byline-left">
+      <div class="byline-avatar">EZ</div>
+      <div class="byline-name"><strong>Eclipse Zone Editors</strong>{{ category }}</div>
+    </div>
+    <div class="byline-right">{{ readTime }}<br>{{ date | readableDate }}</div>
+  </div>
+
+  <div class="article-img">
+    {% if coverImage %}
+    <img src="{{ coverImage }}" alt="{{ caption }}">
+    {% else %}
+    <div class="placeholder">
+      <span class="ph-icon">{{ icon }}</span>
+      {{ caption }}
+    </div>
+    {% endif %}
+    {% if coverImage and caption %}<div class="caption">{{ caption }}</div>{% endif %}
+  </div>
+
+  {{ content | safe }}
+
+</div>
+
+{% if sources and sources.length %}
+<div class="sources-block">
+  <h3>Further Reading</h3>
+  <ol>
+    {% for s in sources %}<li>{{ s | safe }}</li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
+{% if note %}
+<div class="disclaimer">
+  <p><strong>A note on this piece:</strong> {{ note }}</p>
+</div>
+{% endif %}

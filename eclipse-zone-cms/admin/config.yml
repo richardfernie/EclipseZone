@@ -1,0 +1,49 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where the CMS commits changes to. Netlify Identity + Git Gateway
+# handle authentication, so you log in with your own account —
+# no separate password to manage.
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "src/posts"
+    create: true      # adds the "New Post" button
+    delete: true       # adds the "Delete entry" option per post
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Wellness & Habits", "Wellness & Aging", "Slow Living", "General"]
+        default: "Wellness & Habits"
+      - { label: "Excerpt (shown on homepage)", name: "excerpt", widget: "text" }
+      - { label: "Read Time", name: "readTime", widget: "string", default: "6 min read" }
+      - { label: "Date", name: "date", widget: "datetime", format: "yyyy-MM-dd" }
+      - { label: "Cover Icon (emoji, used if no photo is uploaded)", name: "icon", widget: "string", default: "📝" }
+      - label: "Cover Photo (optional — leave blank to use the emoji placeholder instead)"
+        name: "coverImage"
+        widget: "image"
+        required: false
+      - { label: "Cover Caption", name: "caption", widget: "string" }
+      - label: "Permalink (leave as-is)"
+        name: "permalink"
+        widget: "hidden"
+        default: "/{{ page.fileSlug }}/index.html"
+      - label: "Further Reading (one per line, optional)"
+        name: "sources"
+        widget: "list"
+        required: false
+      - label: "Closing Note / Disclaimer (optional)"
+        name: "note"
+        widget: "text"
+        required: false
+      - { label: "Body", name: "body", widget: "markdown" }
