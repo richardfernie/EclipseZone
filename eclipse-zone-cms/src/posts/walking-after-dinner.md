@@ -1,18 +1,33 @@
 ---
-layout: layouts/post.njk
 title: Why a 10-Minute Walk After Dinner Beats Most Diet Advice
 category: Wellness & Habits
-excerpt: It's not glamorous, it doesn't require an app, and it might do more for your blood sugar and digestion than the supplement aisle ever will.
+excerpt: It's not glamorous, it doesn't require an app, and it might do more for
+  your blood sugar and digestion than the supplement aisle ever will.
 readTime: 7 min read
 date: 2026-08-01
 icon: 🌇
+coverImage: /images/images.jpeg
 caption: "Photo: a quiet evening street, someone walking after dinner"
-permalink: "/{{ page.fileSlug }}/index.html"
+layout: layouts/post.njk
+permalink: /{{ page.fileSlug }}/index.html
 sources:
-  - 'Reynolds AN, et al. "Advice to walk after meals is more effective for lowering postprandial glycaemia than advice that does not specify timing." <em>Diabetologia.</em> 2016;59(12):2572&ndash;2578. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27747394/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/27747394</a>'
-  - 'Colberg SR, et al. "Postprandial walking is better for lowering the glycemic effect of dinner than pre-dinner exercise in type 2 diabetic individuals." <em>J Am Med Dir Assoc.</em> 2009;10(6):394&ndash;397. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19560716/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/19560716</a>'
-  - 'American Diabetes Association &mdash; Standards of Care, physical activity guidance. &middot; <a href="https://diabetesjournals.org/care" target="_blank" rel="noopener">diabetesjournals.org/care</a>'
-note: This article is for general informational purposes and reflects publicly available research; it isn't personal medical advice. If you have a health condition, especially one affecting blood sugar or heart health, check with a doctor before changing your activity routine.
+  - Reynolds AN, et al. "Advice to walk after meals is more effective for
+    lowering postprandial glycaemia than advice that does not specify timing."
+    <em>Diabetologia.</em> 2016;59(12):2572&ndash;2578. &middot; <a
+    href="https://pubmed.ncbi.nlm.nih.gov/27747394/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/27747394</a>
+  - Colberg SR, et al. "Postprandial walking is better for lowering the glycemic
+    effect of dinner than pre-dinner exercise in type 2 diabetic individuals."
+    <em>J Am Med Dir Assoc.</em> 2009;10(6):394&ndash;397. &middot; <a
+    href="https://pubmed.ncbi.nlm.nih.gov/19560716/" target="_blank"
+    rel="noopener">pubmed.ncbi.nlm.nih.gov/19560716</a>
+  - American Diabetes Association &mdash; Standards of Care, physical activity
+    guidance. &middot; <a href="https://diabetesjournals.org/care"
+    target="_blank" rel="noopener">diabetesjournals.org/care</a>
+note: This article is for general informational purposes and reflects publicly
+  available research; it isn't personal medical advice. If you have a health
+  condition, especially one affecting blood sugar or heart health, check with a
+  doctor before changing your activity routine.
 ---
 
 Most of us have a mental list of things we're "supposed" to do after eating — and a short walk rarely makes the cut. It doesn't sell well. There's no packaging, no dosage, no before-and-after photo. But of all the small daily habits researchers have studied for their effect on metabolism, mood, and sleep, a short post-meal walk is one of the few with genuinely consistent evidence behind it.
