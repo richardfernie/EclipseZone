@@ -7,7 +7,7 @@ excerpt: Fitness in your seventies isn't about pushing harder — it's about
 readTime: 8 min read
 date: 2026-08-04
 icon: 🏋️
-coverImage: /images/two-senior-ladies-at-a-pilates-class-1.jpg
+coverImage: /images/older-adult.jpeg
 caption: "Photo: an older adult doing a simple strength exercise at home"
 layout: layouts/post.njk
 permalink: /{{ page.fileSlug }}/index.html
